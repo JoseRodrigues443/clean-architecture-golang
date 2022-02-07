@@ -1,4 +1,6 @@
-# Go Repository Template
+# The Clean Code Architecture in Golang Proposal
+
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
 [![Keep a Changelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog-%23E05735)](CHANGELOG.md)
 [![GitHub Release](https://img.shields.io/github/v/release/golang-templates/seed)](https://github.com/golang-templates/seed/releases)
@@ -9,7 +11,9 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/golang-templates/seed)](https://goreportcard.com/report/github.com/golang-templates/seed)
 [![Codecov](https://codecov.io/gh/golang-templates/seed/branch/main/graph/badge.svg)](https://codecov.io/gh/golang-templates/seed)
 
-This is a GitHub repository template for Go. It has been created for ease-of-use for anyone who wants to:
+This is a implementation of a golang service project with the design based on the [Clean Code by Uncle Bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+
+It has been created for ease-of-use for anyone who wants to:
 
 - quickly get into Go without losing too much time on environment setup,
 - create a new repoisitory with basic Continous Integration.
@@ -30,6 +34,10 @@ It includes:
 `Star` this repository if you find it valuable and worth maintaining.
 
 `Watch` this repository to get notified about new releases, issues, etc.
+
+## Base premise
+
+![Clean Architecture diagram](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
 ## Usage
 
